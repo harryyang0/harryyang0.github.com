@@ -6,48 +6,51 @@
     <title>服务器首页</title>
     <style>
         body {
-            font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
-            background: #111;
-            color: #eee;
-            text-align: center;
+            background-color: #121212;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
             margin: 0;
-            padding: 2rem;
         }
         .box {
-            max-width: 600px;
-            margin: 3rem auto;
-            background: #222;
-            padding: 2rem;
+            background-color: #1e1e1e;
+            padding: 30px;
             border-radius: 8px;
+            text-align: center;
+            width: 600px;
         }
         h1 {
-            color: #4fc3f7;
+            color: #64b5f6;
+            margin-top: 0;
         }
-        /* 统一按钮样式 */
-        .btn, .github-download-btn, .pan-download-btn {
-            display: inline-block;
+        p {
+            color: #ffffff;
+            margin: 10px 0;
+        }
+        /* 关键：让所有按钮独占一行 */
+        .btn,
+        .pan-download-btn,
+        .github-download-btn {
+            display: block;
+            width: fit-content;
+            margin: 15px auto;
             padding: 10px 20px;
+            color: white;
             text-decoration: none;
             border-radius: 4px;
-            margin-top: 20px;
-            margin-left: 8px;
-            font-weight: bold;
+            font-size: 16px;
         }
         .btn {
-            background: #4fc3f7;
-            color: #111;
-        }
-        .github-download-btn {
-            background: #2ea44f;
-            color: #fff;
+            background-color: #4fc3f7;
         }
         .pan-download-btn {
-            background: #f39c12;
-            color: #fff;
+            background-color: #ff9800;
         }
-        .btn:hover { background: #3ca7c7; }
-        .github-download-btn:hover { background: #278e42; }
-        .pan-download-btn:hover { background: #e67e22; }
+        .github-download-btn {
+            background-color: #4caf50;
+        }
     </style>
 </head>
 <body>

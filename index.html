@@ -23,7 +23,8 @@
         h1 {
             color: #4fc3f7;
         }
-        .btn {
+        /* 统一按钮样式 */
+        .btn, .github-download-btn {
             display: inline-block;
             padding: 10px 20px;
             background: #4fc3f7;
@@ -31,6 +32,18 @@
             text-decoration: none;
             border-radius: 4px;
             margin-top: 20px;
+            margin-left: 8px; /* 按钮之间间距 */
+            font-weight: bold;
+        }
+        .github-download-btn {
+            background: #2ea44f;
+            color: #fff;
+        }
+        .btn:hover {
+            background: #3ca7c7;
+        }
+        .github-download-btn:hover {
+            background: #278e42;
         }
     </style>
 </head>
@@ -40,12 +53,13 @@
         <p>www.zhugenb.com:43410</p>
         <p>版本：1.21.1（模组服）</p>
         <p>1105439253</p>
+
         <a href="/chongzhi/" class="btn">前往赞助页面</a>
-        <a class="github-download-btn" 
-   href="https://github.com/harryyang0/harryyang0.github.com/releases/download/客户端/3.7.2.zip"
-   download>
-  📥 立即下载客户端 3.7.2（最好别用，github下载慢，最好还是群文件或网盘）
-</a>
+        <a href="https://github.com/harryyang0/harryyang0.github.com/releases/download/客户端/3.7.2.zip"
+           class="github-download-btn"
+           download>
+            📥 立即下载客户端 3.7.2（GitHub慢，推荐群文件/网盘）
+        </a>
     </div>
 </body>
 </html>

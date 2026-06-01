@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的MC服务器官网</title>
+    <style>
+        body{font-family:微软雅黑;background:#111;color:#eee;text-align:center;margin:0;padding:20px;}
+        h1{color:#4fc3f7;}
+        .box{max-width:600px;margin:30px auto;background:#222;padding:20px;border-radius:8px;}
+    </style>
+</head>
+<body>
+    <h1>欢迎来到我的MC服务器</h1>
+    <div class="box">
+        <h2>服务器信息</h2>
+        <p>IP：你的服务器IP</p>
+        <p>版本：1.21.1</p>
+        <p>QQ群：你的群号</p>
+    </div>
+</body>
+</html>

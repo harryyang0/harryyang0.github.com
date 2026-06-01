@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服务器充值中心</title>
+    <style>
+        body {
+            font-family: "微软雅黑", sans-serif;
+            background-color: #1a1a1a;
+            color: #eee;
+            text-align: center;
+            margin: 0;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 600px;
+            margin: 3rem auto;
+            background-color: #2d2d2d;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(79, 195, 247, 0.3);
+        }
+        h1 {
+            color: #4fc3f7;
+            margin-bottom: 1.5rem;
+        }
+        .qrcode {
+            width: 220px;
+            height: 220px;
+            border: 3px solid #4fc3f7;
+            border-radius: 8px;
+            margin: 1rem auto;
+            display: block;
+        }
+        .tip {
+            color: #aaa;
+            margin: 1.5rem 0;
+            line-height: 1.6;
+        }
+        .back-btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: #4fc3f7;
+            color: #1a1a1a;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .back-btn:hover {
+            background-color: #29b6f6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>服务器充值中心</h1>
+        <!-- 把 src 换成你的二维码图片地址 -->
+        <img src="这里放你的二维码图片地址" alt="充值二维码" class="qrcode">
+        <p class="tip">
+            扫码完成付款后，请联系管理员确认到账<br>
+            我们会在15分钟内为你处理
+        </p>
+        <a href="/" class="back-btn">返回首页</a>
+    </div>
+</body>
+</html>
